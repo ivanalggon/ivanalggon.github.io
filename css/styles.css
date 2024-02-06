@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Altura de viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #424242;
+}
+
+#container {
+    margin-top: -5vh;
+    padding: 60px;
+    background-color: rgb(190, 190, 190);
+    text-align: center;
+    border-radius: 30px;
+    /* bordes difuminados */
+    box-shadow: 0 0 10px 1px #000000;
+}
+
+h1 {
+    color: #333;
+    font-size: 40px;
+}
+
+p, #formularioDificultad {
+    margin: 10px;
+    color: #333;
+    font-size: 20px;
+}
+
+#formularioDificultad button {
+    background-color: #e2b900;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#formularioDificultad button:hover {
+    transform: scale(1.1);
+}
+#formularioDificultad button:first-child {
+    background-color: #4CAF50;
+    font-weight: bold;
+}
+#formularioDificultad button:last-child {
+    background-color: #f44336;
+    font-weight: bold;
+}
