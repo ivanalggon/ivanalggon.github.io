@@ -9,7 +9,7 @@ let operacionesGeneradas = [];
 
 // Función para generar un número aleatorio par entre 2 y 20
 function generarNumeroRandom() {
-    return Math.floor(Math.random() * 20) + 1;
+    return Math.floor(Math.random() * 50) + 1;
 }
 
 // Verificar si la combinación de números ya ha sido generada
