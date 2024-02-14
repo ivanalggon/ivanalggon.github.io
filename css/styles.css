@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    height: 100vh; /* Altura de viewport */
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +16,6 @@ body {
     background-color: rgb(190, 190, 190);
     text-align: center;
     border-radius: 30px;
-    /* bordes difuminados */
     box-shadow: 0 0 10px 1px #000000;
 }
 

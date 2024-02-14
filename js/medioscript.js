@@ -59,9 +59,14 @@ function validarRespuestas(event) {
         let respuestaUsuario = parseInt(divOperacion.querySelector('.respuesta').value);
         let respuestaCorrecta = parseInt(divOperacion.dataset.respuesta);
 
+        let respuestasInput = divOperacion.querySelector('.respuesta');
+
         // Verificar si la respuesta del usuario es correcta
         if (respuestaUsuario === respuestaCorrecta) {
             respuestasCorrectas++;
+            respuestasInput.style.backgroundColor = 'lightgreen';
+        }else{
+            respuestasInput.style.backgroundColor = 'lightcoral';
         }
     });
 
